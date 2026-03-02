@@ -49,7 +49,7 @@ if (isset($_POST["new_interest"])) {
         $message = "Nepodařilo se uložit do profile.json";
         $messageType = "error";
       } else {
-        $message = "Zájem byl úspěšně přidán.";
+        $message = "Zájem byl přidán.";
         $messageType = "success";
       }
     }
@@ -99,3 +99,4 @@ if (isset($_POST["new_interest"])) {
 </body>
 
 </html>
+
