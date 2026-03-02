@@ -46,7 +46,7 @@ if (isset($_POST["new_interest"])) {
       $ok = file_put_contents($jsonFile, $encoded);
 
       if ($ok === false) {
-        $message = "Nepodařilo se uložit do profile.json (zkontroluj práva).";
+        $message = "Nepodařilo se uložit do profile.json";
         $messageType = "error";
       } else {
         $message = "Zájem byl úspěšně přidán.";
@@ -97,4 +97,5 @@ if (isset($_POST["new_interest"])) {
     </form>
   </div>
 </body>
+
 </html>
